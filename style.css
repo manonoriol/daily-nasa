@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+html {
+  background: black;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+
+p {
+  font-family: 'helvetica neue';
+  margin: 200px;
+}
+
+h1 {
+  font-family: 'Lexend Mega', sans-serif;
+  text-align: center;
+  margin: 100px;
+}
+
+.illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#description {
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 50px;
+}
+
+
