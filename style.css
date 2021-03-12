@@ -1,53 +1,60 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
 
-html {
-  background: black;
-  font-size: 20px;
-  font-weight: 200;
-  color: white;
-  scroll-behavior: smooth;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 2000px;
+    overflow-x: hidden;
+    background: #0f0f0f;
 }
+
 
 p {
   font-family: 'helvetica neue';
-  margin: 200px;
+  color: white;
 }
 
-h1 {
-  font-family: 'Lexend Mega', sans-serif;
-  text-align: center;
-  margin: 100px;
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    width: 90%;
+    padding: 200px 0px;
+    position: relative;
 }
 
-.illustration {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.image-container {
+    padding-bottom: 100%;
+    background: black;
+    position: relative;
+/*    overflow: hidden;*/
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
 }
 
-.image {
-  background-repeat: no-repeat;
-  background-size: contain;
+.text {
+    color: white;
+    margin: 0;
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translateY(-50%);
+    z-index: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: 'helvetica neue';
+
 }
-
-#description {
-  font-size: 20px;
-  letter-spacing: 2px;
-  word-spacing: 4px;
-  line-height: 50px;
-}
-
-.floating {
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 50px; }
-
-@keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 5px); }
-    100%   { transform: translate(0, -0px); }
+/*.text.text-dark {
+    color: darkblue;
+}*/
+.text span {
+    position: relative;
+    display: block;
 }
