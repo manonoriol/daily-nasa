@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Daily NASA 🪐</title>
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
   <div class="smooth-scroll-wrapper">
@@ -18,14 +21,15 @@
         </div>
   <div class="illustration"></div>
   <div class="paragraph">
-    <p class="description"></p>
+    <p class="description" data-aos="fade-up" data-aos-duration="6000" data-aos-easing="ease-in-sine"></p>
     <p class="copyright"></p>
   </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
 <script src="lib/index.js"></script>
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
