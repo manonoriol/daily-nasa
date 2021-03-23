@@ -24,9 +24,10 @@ html, body {
 
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 30px auto;
+    padding: 100px;
     width: 90%;
-    padding: 80px 0px;
+    height: 100vh;
     position: relative;
 }
 
@@ -56,9 +57,7 @@ html, body {
     font-family: monument regular;
 
 }
-/*.text.text-dark {
-    color: darkblue;
-}*/
+
 .text span {
     position: relative;
     display: block;
@@ -66,10 +65,12 @@ html, body {
 
 .paragraph {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 0 auto;
   width: 90%;
   line-height: 1.8;
   color: white;
   font-family: cairo regular;
   font-size: 20px;
+  position: relative;
+  top: -60px;
 }
