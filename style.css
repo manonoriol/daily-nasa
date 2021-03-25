@@ -1,3 +1,15 @@
+
+@font-face {
+font-family: monument regular;
+src: url("fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: degarism studio;
+src: url("fonts/Degarism Studio - Alliance No.2 Light.otf") format("opentype");
+}
+
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -39,7 +51,7 @@
   width: 90%;
   line-height: 1.8;
   color: white;
-  font-family: 'Spartan', sans-serif;
+  font-family: degarism studio;
   font-size: 20px;
   position: relative;
   top: -60px;
@@ -100,7 +112,7 @@ html, body {
   width: 90%;
   line-height: 1.8;
   color: white;
-  font-family: 'Spartan', sans-serif;
+  font-family: degarism studio;
   font-size: 20px;
   position: relative;
   top: -60px;
@@ -160,7 +172,7 @@ html, body {
   width: 90%;
   line-height: 1.8;
   color: white;
-  font-family: 'Spartan', sans-serif;
+  font-family: degarism studio;
   font-size: 20px;
   position: relative;
   top: -60px;
@@ -221,7 +233,7 @@ html, body {
     width: 90%;
     line-height: 1.8;
     color: white;
-    font-family: 'Spartan', sans-serif;
+    font-family: degarism studio;
     font-size: 16px;
     position: relative;
     top: 16px;
@@ -279,7 +291,7 @@ html, body {
     width: 90%;
     line-height: 1.8;
     color: white;
-    font-family: 'Spartan', sans-serif;
+    font-family: degarism studio;
     font-size: 15px;
     position: relative;
     top: 10px;
@@ -337,7 +349,7 @@ html, body {
   width: 90%;
   line-height: 1.8;
   color: white;
-  font-family: 'Spartan', sans-serif;
+  font-family: degarism studio;
   font-size: 15px;
   position: relative;
   top: 10px;
@@ -355,16 +367,6 @@ html, body {
 }
 
 }
-
-
-@font-face {
-font-family: monument regular;
-src: url("fonts/MonumentExtended-Regular.otf") format("opentype");
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
-
-
 
 
 
