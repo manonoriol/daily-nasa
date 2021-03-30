@@ -301,7 +301,7 @@ html, body {
       margin: 0;
       padding: 0;
       width: 100%;
-      min-height: 1100px;
+      min-height: 1000px;
       overflow-x: hidden;
       background: #0f0f0f;
       -webkit-font-smoothing : antialiased;
@@ -359,7 +359,7 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 1240px;
+    min-height: 1000px;
     overflow-x: hidden;
     background: #0f0f0f;
     -webkit-font-smoothing : antialiased;
